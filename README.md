@@ -25,13 +25,6 @@ A deep learning project that classifies human emotions from speech audio using a
 | Disgust   | 0.95      | 0.91   | 0.93     |
 | Surprised | 0.94      | 0.84   | 0.89     |
 
-### Training Curves
-
-| Loss | Accuracy |
-|------|----------|
-| ![Loss](assets/loss_curve.png) | ![Accuracy](assets/accuracy_curve.png) |
-
----
 
 ## 🏗️ Model Architecture
 
