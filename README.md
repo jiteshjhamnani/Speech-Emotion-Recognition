@@ -26,20 +26,6 @@ A deep learning project that classifies human emotions from speech audio using a
 | Surprised | 0.94      | 0.84   | 0.89     |
 
 
-## 🏗️ Model Architecture
-
-```
-Input: (40, 1)  ← 40 MFCC features
-  │
-  ├─ Conv1D(128, kernel=5) → BatchNorm → ReLU → Dropout(0.3)
-  ├─ Conv1D(256, kernel=5) → BatchNorm → ReLU → Dropout(0.3)
-  ├─ Flatten
-  ├─ Dense(256) → ReLU → Dropout(0.3)
-  ├─ Dense(128) → ReLU
-  └─ Dense(8)   → Softmax
-```
-
----
 
 ## 📁 Project Structure
 
@@ -47,9 +33,6 @@ Input: (40, 1)  ← 40 MFCC features
 SER/
 ├── SER.ipynb               # Main notebook (training + evaluation)
 ├── requirements.txt        # Python dependencies
-├── assets/
-│   ├── loss_curve.png
-│   └── accuracy_curve.png
 ├── dataset/                # RAVDESS dataset (not tracked by git)
 │   └── Actor_XX/
 │       └── *.wav
