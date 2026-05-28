@@ -130,6 +130,3 @@ Or use the live microphone recording cell in the notebook.
 
 ---
 
-## 📄 License
-
-MIT License
